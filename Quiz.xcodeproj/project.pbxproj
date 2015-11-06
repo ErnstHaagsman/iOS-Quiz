@@ -13,6 +13,8 @@
 		3F3D61001BEC186500577FA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D60FF1BEC186500577FA8 /* Images.xcassets */; };
 		3F3D61031BEC186500577FA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D61011BEC186500577FA8 /* LaunchScreen.xib */; };
 		3F3D610F1BEC186500577FA8 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D610E1BEC186500577FA8 /* QuizTests.m */; };
+		3F3D611D1BEC1C2D00577FA8 /* EHQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D611B1BEC1C2D00577FA8 /* EHQuizViewController.m */; };
+		3F3D611E1BEC1C2D00577FA8 /* EHQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D611C1BEC1C2D00577FA8 /* EHQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 		3F3D61081BEC186500577FA8 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3D610D1BEC186500577FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3D610E1BEC186500577FA8 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		3F3D611A1BEC1C2D00577FA8 /* EHQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHQuizViewController.h; path = ../EHQuizViewController.h; sourceTree = "<group>"; };
+		3F3D611B1BEC1C2D00577FA8 /* EHQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHQuizViewController.m; path = ../EHQuizViewController.m; sourceTree = "<group>"; };
+		3F3D611C1BEC1C2D00577FA8 /* EHQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EHQuizViewController.xib; path = ../EHQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 		3F3D60F51BEC186500577FA8 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				3F3D611A1BEC1C2D00577FA8 /* EHQuizViewController.h */,
+				3F3D611B1BEC1C2D00577FA8 /* EHQuizViewController.m */,
+				3F3D611C1BEC1C2D00577FA8 /* EHQuizViewController.xib */,
 				3F3D60FA1BEC186500577FA8 /* AppDelegate.h */,
 				3F3D60FB1BEC186500577FA8 /* AppDelegate.m */,
 				3F3D60FD1BEC186500577FA8 /* Quiz-Prefix.pch */,
@@ -196,6 +204,7 @@
 			files = (
 				3F3D60FE1BEC186500577FA8 /* Quiz-Prefix.pch in Resources */,
 				3F3D61031BEC186500577FA8 /* LaunchScreen.xib in Resources */,
+				3F3D611E1BEC1C2D00577FA8 /* EHQuizViewController.xib in Resources */,
 				3F3D61001BEC186500577FA8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +225,7 @@
 			files = (
 				3F3D60FC1BEC186500577FA8 /* AppDelegate.m in Sources */,
 				3F3D60F91BEC186500577FA8 /* main.m in Sources */,
+				3F3D611D1BEC1C2D00577FA8 /* EHQuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
