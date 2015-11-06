@@ -13,6 +13,8 @@
 		3F3D61001BEC186500577FA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D60FF1BEC186500577FA8 /* Images.xcassets */; };
 		3F3D61031BEC186500577FA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D61011BEC186500577FA8 /* LaunchScreen.xib */; };
 		3F3D610F1BEC186500577FA8 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D610E1BEC186500577FA8 /* QuizTests.m */; };
+		3F3D61221BEC2D5F00577FA8 /* EHMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D61201BEC2D5F00577FA8 /* EHMapViewController.m */; };
+		3F3D61231BEC2D5F00577FA8 /* EHMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D61211BEC2D5F00577FA8 /* EHMapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 		3F3D61081BEC186500577FA8 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3D610D1BEC186500577FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3D610E1BEC186500577FA8 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		3F3D611F1BEC2D5F00577FA8 /* EHMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHMapViewController.h; sourceTree = "<group>"; };
+		3F3D61201BEC2D5F00577FA8 /* EHMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHMapViewController.m; sourceTree = "<group>"; };
+		3F3D61211BEC2D5F00577FA8 /* EHMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHMapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,9 @@
 				3F3D60FF1BEC186500577FA8 /* Images.xcassets */,
 				3F3D61011BEC186500577FA8 /* LaunchScreen.xib */,
 				3F3D60F61BEC186500577FA8 /* Supporting Files */,
+				3F3D611F1BEC2D5F00577FA8 /* EHMapViewController.h */,
+				3F3D61201BEC2D5F00577FA8 /* EHMapViewController.m */,
+				3F3D61211BEC2D5F00577FA8 /* EHMapViewController.xib */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 			files = (
 				3F3D60FE1BEC186500577FA8 /* Quiz-Prefix.pch in Resources */,
 				3F3D61031BEC186500577FA8 /* LaunchScreen.xib in Resources */,
+				3F3D61231BEC2D5F00577FA8 /* EHMapViewController.xib in Resources */,
 				3F3D61001BEC186500577FA8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +225,7 @@
 			files = (
 				3F3D60FC1BEC186500577FA8 /* AppDelegate.m in Sources */,
 				3F3D60F91BEC186500577FA8 /* main.m in Sources */,
+				3F3D61221BEC2D5F00577FA8 /* EHMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +408,7 @@
 				3F3D61141BEC186500577FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3D61151BEC186500577FA8 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +417,7 @@
 				3F3D61171BEC186500577FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
